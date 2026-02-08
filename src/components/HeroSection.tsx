@@ -53,7 +53,7 @@ const HeroSection = () => (
             View Courses <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>
-        <Button asChild variant="outline" size="lg" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 px-8">
+        <Button asChild variant="outline" size="lg" className="border-foreground/20 bg-card text-foreground hover:bg-card/90 px-8">
           <Link to="/trainers">
             <Users className="mr-2 h-4 w-4" /> Meet Our Trainers
           </Link>
